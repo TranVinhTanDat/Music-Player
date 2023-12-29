@@ -49,6 +49,12 @@ const $ = document.querySelector.bind(document);
             image: "./Music-Play/Image-music/GheQua.jpg",
           },
           {
+            name: "Người Âm Phu3",
+            singer: "Osad",
+            path: "./Music-Play/Music/NguoiAmPhu-MaiQuangNamVRT-5437858.mp3",
+            image: "./Music-Play/Image-music/NguoiAmPhu.jpg",
+          },
+          {
             name: "Em Hãy Cười Nhiều Lên Đi",
             singer: "Khắc Việt",
             path: "./Music-Play/Music/EmHayCuoi.mp4",
