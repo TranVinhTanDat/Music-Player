@@ -24,36 +24,12 @@ const $ = document.querySelector.bind(document);
           localStorage.setItem(PLAY_STORAGE_KEY, JSON.stringify(this.config));
         },
         songs: [
-          {
-            name: "Mùa Hè Tuyệt Vời",
-            singer: "Đức Phúc",
-            path: "./Music-Play/Music/MuaHeTuyetVoiLalawonder-DucPhuc-9835888.mp3",
-            image: "./Music-Play/Image-music/MuaHeTuyetVoi.jpg",
-          },
-          {
-            name: "Người Ấy",
-            singer: "Trịnh Thăng Bình",
-            path: "./Music-Play/Music/NguoiAy-TrinhThangBinh-4086656.mp3",
-            image: "./Music-Play/Image-music/NguoiAy.jpg",
-          },
-          {
-            name: "Way Back Home",
-            singer: "SHAUN",
-            path: "./Music-Play/Music/WayBackHome-SHAUN-5564971.mp3",
-            image: "./Music-Play/Image-music/WayBackHome.jpg",
-          },
-          {
-            name: "Năm Tháng Ấy",
-            singer: "Green",
-            path: "./Music-Play/Music/NamThangAy-Green-6283400.mp3",
-            image: "./Music-Play/Image-music/NamThangAy.jpg",
-          },
-          {
-            name: "Như Ngày Hôm Qua",
-            singer: "Sơn Tùng MTP",
-            path: "./Music-Play/Music/NhuNgayHomQuaUpgrade-SonTungMTP-4282962.mp3",
-            image: "./Music-Play/Image-music/NhuNgayHomQua.jpg",
-          },
+          // {
+          //   name: "Mùa Hè Tuyệt Vời",
+          //   singer: "Đức Phúc",
+          //   path: "./Music-Play/Music/MuaHeTuyetVoiLalawonder-DucPhuc-9835888.mp3",
+          //   image: "./Music-Play/Image-music/MuaHeTuyetVoi.jpg",
+          // },
           {
             name: "Đường Tôi Chở Em Về",
             singer: "Thinh Suy",
@@ -66,6 +42,57 @@ const $ = document.querySelector.bind(document);
             path: "./Music-Play/Music/NoiNayCoAnh.mp3",
             image: "./Music-Play/Image-music/NoiNayCoAnh.jpg",
           },
+          {
+            name: "Ghé Qua",
+            singer: "Khắc Việt",
+            path: "./Music-Play/Music/GheQua-TaynguyenSoundTofuPC-7031399.mp3",
+            image: "./Music-Play/Image-music/GheQua.jpg",
+          },
+          {
+            name: "Em Hãy Cười Nhiều Lên Đi",
+            singer: "Khắc Việt",
+            path: "./Music-Play/Music/EmHayCuoi.mp4",
+            image: "./Music-Play/Image-music/EmHayCuoiNhieuLenDi.jpg",
+          },
+          {
+            name: "Yêu",
+            singer: "Khắc Việt",
+            path: "./Music-Play/Music/Yeu-KhacViet-4520698.mp3",
+            image: "./Music-Play/Image-music/Yeu.jpg",
+          },
+          {
+            name: "Như Ngày Hôm Qua",
+            singer: "Sơn Tùng MTP",
+            path: "./Music-Play/Music/NhuNgayHomQuaUpgrade-SonTungMTP-4282962.mp3",
+            image: "./Music-Play/Image-music/NhuNgayHomQua.jpg",
+          },
+          {
+            name: "Người Ấy",
+            singer: "Trịnh Thăng Bình",
+            path: "./Music-Play/Music/NguoiAy-TrinhThangBinh-4086656.mp3",
+            image: "./Music-Play/Image-music/NguoiAy.jpg",
+          },
+          {
+            name: "4 Mùa Thương Em",
+            singer: "Lập Nguyên",
+            path: "./Music-Play/Music/4MuaThuongEm-LapNguyen-8365312.mp3",
+            image: "./Music-Play/Image-music/4MuaThuongEm.jpg",
+          },
+          
+          {
+            name: "Way Back Home",
+            singer: "SHAUN",
+            path: "./Music-Play/Music/WayBackHome-SHAUN-5564971.mp3",
+            image: "./Music-Play/Image-music/WayBackHome.jpg",
+          },
+          {
+            name: "Năm Tháng Ấy",
+            singer: "Green",
+            path: "./Music-Play/Music/NamThangAy-Green-6283400.mp3",
+            image: "./Music-Play/Image-music/NamThangAy.jpg",
+          },
+      
+          
           {
             name: "Tháng Tư Là Lời Nói Dối Của Em",
             singer: "Hà Anh Tuấn",
@@ -122,12 +149,7 @@ const $ = document.querySelector.bind(document);
             image: "./Music-Play/Image-music/PhiaSauMotCoGai.jpg",
           },
 
-          {
-            name: "4 Mùa Thương Em",
-            singer: "Lập Nguyên",
-            path: "./Music-Play/Music/4MuaThuongEm-LapNguyen-8365312.mp3",
-            image: "./Music-Play/Image-music/4MuaThuongEm.jpg",
-          },
+          
           {
             name: "Ấn Nút Nhớ Thả Giấc Mơ",
             singer: "Sơn Tùng MTP",
