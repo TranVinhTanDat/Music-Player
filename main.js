@@ -72,12 +72,12 @@ const $ = document.querySelector.bind(document);
             path: "./Music-Play/Music/NhuNgayHomQuaUpgrade-SonTungMTP-4282962.mp3",
             image: "./Music-Play/Image-music/NhuNgayHomQua.jpg",
           },
-          {
-            name: "Người Ấy",
-            singer: "Trịnh Thăng Bình",
-            path: "./Music-Play/Music/NguoiAy-TrinhThangBinh-4086656.mp3",
-            image: "./Music-Play/Image-music/NguoiAy.jpg",
-          },
+          // {
+          //   name: "Người Ấy",
+          //   singer: "Trịnh Thăng Bình",
+          //   path: "./Music-Play/Music/NguoiAy-TrinhThangBinh-4086656.mp3",
+          //   image: "./Music-Play/Image-music/NguoiAy.jpg",
+          // },
           {
             name: "4 Mùa Thương Em",
             singer: "Lập Nguyên",
