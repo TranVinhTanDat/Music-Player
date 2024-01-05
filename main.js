@@ -34,13 +34,13 @@ const $ = document.querySelector.bind(document);
             name: "Buồn Hay Vui",
             singer: "VSOUL",
             path: "./Music-Play/Music/BUỒN HAY VUI - VSOUL x MCK x Obito x Ronboogz x Boyzed (Official Audio).mp4",
-            image: "./Music-Play/Image-music/",
+            image: "./Music-Play/Image-music/A8.jpg",
           },
           {
             name: "Đường Tôi Chở Em Về",
             singer: "Thinh Suy",
             path: "./Music-Play/Music/DuongToiChoEmVe.mp3",
-            image: "./Music-Play/Image-music/A8.jpg",
+            image: "./Music-Play/Image-music/DuongToiChoEmVe.jpg",
           },
           {
             name: "Nơi Này Có Anh",
